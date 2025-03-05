@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questions Answerded</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- font cdn -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        "clifford": '#da373d',
+                        "bg-1": '#F4F7FF'
+                    }
+                }
+            }
+        }
+    </script>    
+</head>
+<body class="font-[Poppins] px-20 bg-bg-1">
+    <header>
+        <nav class="flex justify-between items-center bg-white p-4 rounded-2xl my-4">
+            <div class="flex items-center">
+                <img src="./assets/logo.png" alt="" srcset="">
+                <h3 class="text-3xl ml-2 font-light">Dev<span class="font-semibold">Board</span></h3>
+            </div>
+            <div class="flex">
+                <div class="flex justify-center items-center bg-bg-1 rounded-lg mr-4 p-4 bg-blue-500 text-white font-bold">
+                    <button id="back-to-desk">Back to desk</button>
+                </div>
+            </div>
+        </nav>
+    </header>
+   <div>
+    <div class="bg-white p-4 rounded-lg m-4">
+        <h3 class="font-semibold">Question-1: What are the different ways to select an element in the DOM?</h3>
+        <p class="truncate font-light">The different ways to select an element in DOM are ID(getElementById), Class name(getElementsbyClassname), Query Selectors, Tag name.</p>
+    </div>
+    <div class="bg-white p-4 rounded-lg m-4">
+        <h3 class="font-semibold">Question-2: What is the difference between innerHTML, innerText, and textContent ?</h3>
+        <p class="truncate font-light">The innerHTML will get or modify the html tags of an attribute, the innerText will get or modify the texual content of an element and the innerContent will get the raw text with all the hidden text.</p>
+    </div>
+    <div class="bg-white p-4 rounded-lg m-4">
+        <h3 class="font-semibold">Question-1: What are the different ways to select an element in the DOM?</h3>
+        <p class="truncate font-light">The different ways to select an element in DOM are ID(getElementById), Class name(getElementsbyClassname), Query Selectors, Tag name.</p>
+    </div>
+    <div class="bg-white p-4 rounded-lg m-4">
+        <h3 class="font-semibold">Question-3: What is event delegation in the DOM?</h3>
+        <p class="truncate font-light">Event delegation is a technique in JS that allows the parent elemt to handle its events instead of its giving out events to its childs separately.</p>
+    </div>
+    <div class="bg-white p-4 rounded-lg m-4">
+        <h3 class="font-semibold">Question-4: What is event bubbling in the DOM?</h3>
+        <p class="truncate font-light">Event bubbling is a concept in JS that starts from a target element and bubbles to the parent element bubbling through the DOM tree triggering all the events in the way.</p>
+    </div>
+    <div class="bg-white p-4 rounded-lg m-4">
+        <h3 class="font-semibold">Question-5: How do you create, add, and remove elements using JavaScript?</h3>
+        <p class="truncate font-light">We can create an element by using createElement and append a child element by using appendChild, we can setAttribute by using setAttribute and remove by removeAttribute. We can also use removeChild to remove a child element from a parent element.</p>
+    </div>
+   </div>
+   <script src="./js/questions.js"></script>
+</body>
+</html>
