@@ -62,7 +62,7 @@ document.getElementById("clear-btn").addEventListener("click", function(){
 
 
 document.getElementById("board-card").addEventListener("click", function(){
-    window.location.href = "../questions.html";
+    window.location.href = "./questions.html";
 })
 
 // Function to generate a random RGB color
